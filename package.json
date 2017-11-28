@@ -1,0 +1,25 @@
+{
+  "name": "text-file-analyser",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to to build an application that can take a text file and output the individual words and the frequency at which they appear in the file. Building on this, the program should also output whether the number of times a word appears is a prime number or not.",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neroshan12/text-file-analyser-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neroshan12/text-file-analyser-JS/issues"
+  },
+  "homepage": "https://github.com/neroshan12/text-file-analyser-JS#readme"
+}

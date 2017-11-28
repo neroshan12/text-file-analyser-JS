@@ -1,0 +1,1 @@
+Text file can be read.
