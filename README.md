@@ -1,7 +1,12 @@
 # text-file-analyser-JS
-The purpose of this project is to to build an application that can take a text file and output the individual words and the frequency at which they appear in the file. Building on this, the program should also output whether the number of times a word appears is a prime number or not.
+
+The purpose of this project is to build an application that can take a text
+file and output the individual words and the frequency at which they appear in
+the file. Building on this, the program should also output whether the number of
+times a word appears is a prime number or not.
 
 ## User Stories
+
 ```
 As a user,
 So I can determine the text file to analyse,
@@ -27,30 +32,59 @@ I'd like to be able to see a table displaying whether or not the number is a pri
 ```
 
 ## How I will approach the task
-- Create user stories to follow Agile Methodology
-- Create a Domain Object Model so I can visualise how the program will look
-- I will create separate functions to deal with different aspects of the application:
+
+* Create user stories to follow Agile Methodology
+* Create a Domain Object Model so I can visualise how the program will look
+* I will create separate functions to deal with different aspects of the
+  application:
   * Extracting text from text file
   * Separating text into individual words
   * Count the number of times words appears
   * Determine if the number of times the numbers appear is prime or not
   * Display text, frequency and prime? visually
-- All functions will be created using TDD thus tests will be written in Jasmine first
+* All functions will be created using TDD thus tests will be written in Jasmine
+  first
 
 ## Potential Difficulties
-As i have not written JavaScript in 6 weeks, I will have to pick up the language again and figure out how to import a text file as I have no experience in that. Separating text into individual words should be straight forward however I feel issues may arise when punctuation such as apostrophes are involved. There should be a straightforward method to counting the individual words and I should be able to figure out a mathematical way to determine whether a number is prime or not.
 
-## Running the application (locally)
-- cd text-file-analyser-JS (Navigate to the root directory of the project folder)
-- open index.html (Run in the command-line)
+As I have not written JavaScript in 6 weeks, I will have to pick up the language
+again and figure out how to import a text file as I have no experience in that.
+Separating text into individual words should be straight forward however I feel
+issues may arise when punctuation such as apostrophes are involved. There should
+be a straightforward method to counting the individual words and I should be
+able to figure out a mathematical way to determine whether a number is prime or
+not.
+
+## Difficulties and reason for incomplete project
+
+Though I thoroughly enjoy JavaScript, it seems I have run out of time to
+complete the project within the allotted timeframe. Going back over the
+JavaScript content from Maker's Academy has enabled me to improve my JavaScript
+skills and inspired me to sign up to extra online courses but has restricted my
+ability to fully complete this project to a high standard.
+
+## Reflecting on the task
+
+Looking back at the task, it was an interesting problem to solve and I feel I
+have investigated various facets of it. It has helped me clarify certain gaps in
+my knowledge that I aim to fill and has aided my understanding of how to
+approach problems in different ways. I also feel that given slightly more time I
+could write the necessary code to separate the text into words, count the number
+of words and determine if those numbers were prime or not. But ultimately, it
+has reinforced my drive to code as much as possible.
+
+## Running the application
+
+* Download Node.js
+* git clone https://github.com/neroshan12/text-file-analyser-JS.git
+* cd text-file-analyser-JS
+* npm install
+* For tests run 'jasmine'
 
 ## Technology stack
-- JavaScript
-- Testing: Jasmine
 
-## Running the tests
-- cd text-file-analyser-JS (Navigate to the root directory of the project folder)
-- open SpecRunner.html (Run in the command-line)
+* JavaScript
+* Testing: Jasmine
 
 ## Future features
 
