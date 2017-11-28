@@ -79,19 +79,23 @@ not.
 
 Though I thoroughly enjoy JavaScript, it seems I have run out of time to
 complete the project within the allotted timeframe. Going back over the
-JavaScript content from Maker's Academy has enabled me to improve my JavaScript
-skills and inspired me to sign up to extra online courses but has restricted my
-ability to fully complete this project to a high standard.
+JavaScript content from Maker's Academy has enabled me to improve my programming
+skills and inspired me to sign up to extra online courses. However, the time
+spent on refreshing my knowledge, has restricted my ability to fully complete
+this project, as I spent the majority of my time figuring out how to import a
+text file into JavaScript and running into a variety of technical issues.
 
 ## Reflecting on the task
 
 Looking back at the task, it was an interesting problem to solve and I feel I
-have investigated various facets of it. It has helped me clarify certain gaps in
-my knowledge that I aim to fill and has aided my understanding of how to
-approach problems in different ways. I also feel that given slightly more time I
-could write the necessary code to separate the text into words, count the number
-of words and determine if those numbers were prime or not. But ultimately, it
-has reinforced my drive to code as much as possible.
+have investigated various facets of it, though only a text 'reader/importer' is
+committed. It has helped me clarify certain gaps in my knowledge that I aim to
+fill and has aided my understanding of how to approach problems in different
+ways. I also feel that given slightly more time I could write the necessary code
+to separate the text into words, count the number of words and determine if
+those numbers were prime or not. Ultimately, I feel as if I followed good
+processes (such as Domain Object Modelling and TDD), reinforced my passion for
+code and has proven to be a useful exercise for me to learn from.
 
 ## Authors
 
