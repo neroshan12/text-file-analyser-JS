@@ -1,8 +1,8 @@
 # text-file-analyser-JS
 
-The purpose of this project is to build an application that can take a text
-file and output the individual words and the frequency at which they appear in
-the file. Building on this, the program should also output whether the number of
+The purpose of this project is to build an application that can take a text file
+and output the individual words and the frequency at which they appear in the
+file. Building on this, the program should also output whether the number of
 times a word appears is a prime number or not.
 
 ## User Stories
@@ -37,11 +37,11 @@ I'd like to be able to see a table displaying whether or not the number is a pri
 * Create a Domain Object Model so I can visualise how the program will look
 * I will create separate functions to deal with different aspects of the
   application:
-  * Extracting text from text file
-  * Separating text into individual words
-  * Count the number of times words appears
-  * Determine if the number of times the numbers appear is prime or not
-  * Display text, frequency and prime? visually
+  - Extracting text from text file
+  - Separating text into individual words
+  - Count the number of times words appears
+  - Determine if the number of times the numbers appear is prime or not
+  - Display text, frequency and prime? visually
 * All functions will be created using TDD thus tests will be written in Jasmine
   first
 
@@ -54,6 +54,26 @@ issues may arise when punctuation such as apostrophes are involved. There should
 be a straightforward method to counting the individual words and I should be
 able to figure out a mathematical way to determine whether a number is prime or
 not.
+
+## Running the application
+
+* Download Node.js
+* git clone https://github.com/neroshan12/text-file-analyser-JS.git
+* cd text-file-analyser-JS
+* npm install
+* For tests run 'jasmine'
+
+## Technology stack
+
+* JavaScript
+* Testing: Jasmine
+
+## Future features
+
+* Separating text into individual words
+* Count the number of times words appears
+* Determine if the number of times the numbers appear is prime or not
+* Display text, frequency and prime? visually
 
 ## Difficulties and reason for incomplete project
 
@@ -72,25 +92,6 @@ approach problems in different ways. I also feel that given slightly more time I
 could write the necessary code to separate the text into words, count the number
 of words and determine if those numbers were prime or not. But ultimately, it
 has reinforced my drive to code as much as possible.
-
-## Running the application
-
-* Download Node.js
-* git clone https://github.com/neroshan12/text-file-analyser-JS.git
-* cd text-file-analyser-JS
-* npm install
-* For tests run 'jasmine'
-
-## Technology stack
-
-* JavaScript
-* Testing: Jasmine
-
-## Future features
-
-## Difficulties
-
-## Feedback
 
 ## Authors
 
